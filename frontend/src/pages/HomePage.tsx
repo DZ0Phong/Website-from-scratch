@@ -7,8 +7,8 @@ export default function HomePage() {
             <p>Welcome to NoteDZ0P!</p>
 
             <nav style={{ display: "flex", gap: "12px" }}>
-                <Link to="/notebook/login">Login</Link>
-                <Link to="/notebook/register">Register</Link>
+                <Link to="/login">Login</Link>
+                <Link to="/register">Register</Link>
             </nav>
         </div>
     );
